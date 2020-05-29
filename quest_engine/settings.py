@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'quest_engine', # for globally available stuff
     'conversation',
     'django.contrib.admin',
     'django.contrib.auth',
