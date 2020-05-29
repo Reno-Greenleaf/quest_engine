@@ -1,3 +1,3 @@
 $("button").on("click", function (event) {
-	alert("Hello!");
+	$("#replies").append("<input type='text'>");
 });

@@ -2,10 +2,12 @@
 <head>
 	<title></title>
 	<script type="text/javascript" src="{% static 'quest_engine/jquery-3.5.1.js' %}"></script>
+	<link rel="stylesheet" type="text/css" href="{% static 'conversation/style.css' %}">
 </head>
 <body>
 	<form method="post" action="{% url 'exchange-editor' %}">
 		<textarea></textarea>
+		<div id="replies"></div>
 		<button type="button">Add reply</button>
 	</form>
 	<script type="text/javascript" src="{% static 'conversation/behaviour.js' %}"></script>
